@@ -65,7 +65,7 @@ export default function TabletContent({
         <HeaderTitle>the planets</HeaderTitle>
         <PlanetNameHolder>
           <NavBarLink
-            to="/Mercury"
+            to="/planets-fact-site/Mercury"
             activeclassname="any"
             onClick={() => setPlanetName("Mercury")}
           >
@@ -75,7 +75,7 @@ export default function TabletContent({
             </PlanetPath>
           </NavBarLink>
           <NavBarLink
-            to="/Venus"
+            to="/planets-fact-site/Venus"
             onClick={() => setPlanetName("Venus")}
             activeclassname="any"
           >
@@ -85,7 +85,7 @@ export default function TabletContent({
             </PlanetPath>
           </NavBarLink>
           <NavBarLink
-            to="/Earth"
+            to="/planets-fact-site/Earth"
             onClick={() => setPlanetName("Earth")}
             activeclassname="any"
           >
@@ -95,7 +95,7 @@ export default function TabletContent({
             </PlanetPath>
           </NavBarLink>
           <NavBarLink
-            to="/Mars"
+            to="/planets-fact-site/Mars"
             onClick={() => setPlanetName("Mars")}
             activeclassname="any"
           >
@@ -105,7 +105,7 @@ export default function TabletContent({
             </PlanetPath>
           </NavBarLink>
           <NavBarLink
-            to="/Jupiter"
+            to="/planets-fact-site/Jupiter"
             activeclassname="any"
             onClick={() => setPlanetName("Jupiter")}
           >
@@ -115,7 +115,7 @@ export default function TabletContent({
             </PlanetPath>
           </NavBarLink>
           <NavBarLink
-            to="/Saturn"
+            to="/planets-fact-site/Saturn"
             onClick={() => setPlanetName("Saturn")}
             activeclassname="any"
           >
@@ -125,7 +125,7 @@ export default function TabletContent({
             </PlanetPath>
           </NavBarLink>
           <NavBarLink
-            to="/Uranus"
+            to="/planets-fact-site/Uranus"
             onClick={() => setPlanetName("Uranus")}
             activeclassname="any"
           >
@@ -135,7 +135,7 @@ export default function TabletContent({
             </PlanetPath>
           </NavBarLink>
           <NavBarLink
-            to="/Neptune"
+            to="/planets-fact-site/Neptune"
             onClick={() => setPlanetName("Neptune")}
             activeclassname="any"
           >

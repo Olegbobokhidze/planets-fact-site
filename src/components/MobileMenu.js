@@ -25,7 +25,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
   return (
     <Menu>
       <NavBarLink
-        to="/Mercury"
+        to="/planets-fact-site/Mercury"
         onClick={() => setPlanetName("Mercury") + setMenu(false)}
       >
         <PlanetTitleAndColor>
@@ -37,7 +37,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
       </NavBarLink>
       <NavBarLink
         onClick={() => setPlanetName("Venus") + setMenu(false)}
-        to="/Venus"
+        to="/planets-fact-site/Venus"
       >
         <PlanetTitleAndColor>
           <VenusColor></VenusColor>
@@ -47,7 +47,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
         </PlanetTitleAndColor>
       </NavBarLink>
       <NavBarLink
-        to="/Earth"
+        to="/planets-fact-site/Earth"
         onClick={() => setPlanetName("Earth") + setMenu(false)}
       >
         <PlanetTitleAndColor>
@@ -58,7 +58,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
         </PlanetTitleAndColor>
       </NavBarLink>
       <NavBarLink
-        to="/Mars"
+        to="/planets-fact-site/Mars"
         onClick={() => setPlanetName("Mars") + setMenu(false)}
       >
         <PlanetTitleAndColor>
@@ -69,7 +69,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
         </PlanetTitleAndColor>
       </NavBarLink>
       <NavBarLink
-        to="/Jupiter"
+        to="/planets-fact-site/Jupiter"
         onClick={() => setPlanetName("Jupiter") + setMenu(false)}
       >
         <PlanetTitleAndColor>
@@ -80,7 +80,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
         </PlanetTitleAndColor>
       </NavBarLink>
       <NavBarLink
-        to="/Saturn"
+        to="/planets-fact-site/Saturn"
         onClick={() => setPlanetName("Saturn") + setMenu(false)}
       >
         <PlanetTitleAndColor>
@@ -91,7 +91,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
         </PlanetTitleAndColor>
       </NavBarLink>
       <NavBarLink
-        to="/Uranus"
+        to="/planets-fact-site/Uranus"
         onClick={() => setPlanetName("Uranus") + setMenu(false)}
       >
         <PlanetTitleAndColor>
@@ -102,7 +102,7 @@ export default function MobileMenu({ setPlanetName, planetName, setMenu }) {
         </PlanetTitleAndColor>
       </NavBarLink>
       <NavBarLink
-        to="/Neptune"
+        to="/planets-fact-site/Neptune"
         onClick={() => setPlanetName("Neptune") + setMenu(false)}
       >
         <PlanetTitleAndColor>

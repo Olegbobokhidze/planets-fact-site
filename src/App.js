@@ -38,7 +38,7 @@ function App() {
         <GlobalStyle />
         <Routes>
           <Route
-            path={"/" + planetName}
+            path={"/planets-fact-site/" + planetName}
             element={
               <Planets
                 content={content}
@@ -52,7 +52,7 @@ function App() {
             }
           />
           <Route
-            path="/"
+            path="/planets-fact-site/"
             element={
               <Planets
                 content={content}
