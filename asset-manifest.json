@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/planets-fact-site/static/js/main.a48782e9.js",
+    "static/media/background-stars.svg": "/planets-fact-site/static/media/background-stars.f6233a6a8d2351c57f2b64289718b309.svg",
+    "index.html": "/planets-fact-site/index.html",
+    "main.a48782e9.js.map": "/planets-fact-site/static/js/main.a48782e9.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a48782e9.js"
+  ]
+}
