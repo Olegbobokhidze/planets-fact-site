@@ -20,11 +20,12 @@ Planets fact site
 ### Built with
 
 - React
+- react-router
 - Styled components
 
 ### Personal development
 
-This is my another big react app in my portfolio and i am so excited, I used routes.
+This is my another big react app in my portfolio and i am so excited, I first used react-routes and it was great experience, i fall in love with react and i think react is my best friend.
 
 ## Author
 
